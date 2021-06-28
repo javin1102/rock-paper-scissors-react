@@ -1,0 +1,101 @@
+.component {
+  border-radius: 50%;
+  box-sizing: content-box;
+  background-color: white;
+  display: inline-block;
+  padding: 1.5rem;
+}
+.rock {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top,
+    hsl(349, 71%, 52%),
+    hsl(349, 70%, 56%)
+  );
+  display: inline-block;
+  padding: 0.8rem;
+}
+.rock-pos-1 {
+  top: 12rem;
+  right: 6rem;
+  cursor: pointer;
+  position: absolute;
+}
+
+.paper {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top,
+    hsl(230, 89%, 62%),
+    hsl(230, 89%, 65%)
+  );
+  display: inline-block;
+  padding: 0.8rem;
+}
+
+.paper-pos-1 {
+  position: absolute;
+  top: -4rem;
+  left: -4rem;
+  cursor: pointer;
+}
+
+.scissors {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top,
+    hsl(39, 89%, 49%),
+    hsl(40, 84%, 53%)
+  );
+  display: inline-block;
+  padding: 0.8rem;
+}
+
+.scissors-pos-1 {
+  position: absolute;
+  top: -4rem;
+  right: -4rem;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 7rem;
+  display: block;
+  width: fit-content;
+  height: 20rem;
+  position: relative;
+}
+
+.container svg {
+  margin: auto;
+}
+
+@media only screen and (max-width: 376px) {
+  .container {
+    margin: 4rem auto;
+  }
+  .container > svg {
+    transform: scale(70%);
+  }
+
+  .rock,
+  .paper,
+  .scissors {
+    transform: scale(90%);
+  }
+  .scissors-pos-1 {
+    top: 0rem;
+    right: 0rem;
+  }
+
+  .paper-pos-1 {
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .rock-pos-1 {
+    top: 10rem;
+    right: 6rem;
+  }
+}

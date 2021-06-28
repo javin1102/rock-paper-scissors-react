@@ -1,0 +1,26 @@
+.button {
+  color: rgba(255, 255, 255, 0.623);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(255, 255, 255, 0.623);
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+@media only screen and (max-width: 376px) {
+  .button {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
