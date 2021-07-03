@@ -71,7 +71,7 @@
   margin: auto;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 460px) {
   .container {
     margin: 4rem auto;
   }
@@ -99,3 +99,32 @@
     right: 6rem;
   }
 }
+
+/* @media only screen and (max-width: 460px) {
+  .container {
+    margin: 4rem auto;
+  }
+  .container > svg {
+    transform: scale(70%);
+  }
+
+  .rock,
+  .paper,
+  .scissors {
+    transform: scale(90%);
+  }
+  .scissors-pos-1 {
+    top: 0rem;
+    right: 0rem;
+  }
+
+  .paper-pos-1 {
+    top: 0rem;
+    left: 0rem;
+  }
+
+  .rock-pos-1 {
+    top: 10rem;
+    right: 6rem;
+  }
+} */
