@@ -55,7 +55,7 @@
   color: hsl(229, 25%, 31%);
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 460px) {
   .container {
     margin-top: 2rem;
     width: 100%;
