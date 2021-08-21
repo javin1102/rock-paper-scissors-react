@@ -10,3 +10,6 @@ This is my first react app that i built by myself after watching tons of tutoria
 
 - React
 - CSS module
+
+## Website URL
+https://javin1102.github.io/rock-paper-scissors-react/index.html
